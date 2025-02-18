@@ -1,3 +1,5 @@
+The screenshots are the captures from Wireshark. Note the difference in the actual data and the content-length value in the request. quic-go/http3 answers with 200 OK.
+
 # How to replicate
 
  1. Complie main.go
