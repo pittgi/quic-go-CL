@@ -4,7 +4,7 @@ The screenshots are the captures from Wireshark. Note the difference in the actu
 
  1. Complie main.go
  2. Run server
- 3. Setup wireshark to capture HTTP/3 and HTTP/2 secrets (see below) and start capturing
+ 3. Setup wireshark to capture TLS secrets and start capturing
  4. Edit attacker.py to your desired content-length and data, then run it
  5. Observe traffic in wireshark
 
