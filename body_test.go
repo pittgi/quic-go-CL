@@ -110,6 +110,7 @@ var _ = Describe("Response Body", func() {
 			Expect(data).To(Equal([]byte("foo")))
 		})
 
+		// Added this test
 		It("errors if content-length > data being sent in one frame", func() {
 			var buf bytes.Buffer
 			buf.Write(getDataFrame([]byte("foobar")))
@@ -120,6 +121,7 @@ var _ = Describe("Response Body", func() {
 			Expect(err).To(HaveOccurred())
 		})
 
+		// Added this test
 		It("errors if content-length > data being sent in two frames", func() {
 			var buf bytes.Buffer
 			buf.Write(getDataFrame([]byte("foo")))
