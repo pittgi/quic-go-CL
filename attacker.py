@@ -161,7 +161,7 @@ class H3ClientManager:
                     (b":scheme", b"https"),
                     (b":authority", parsed_url.netloc.encode()),
                     (b":path", full_path.encode()),
-                    (b"content-length", b"4"),
+                    (b"content-length", b"16"),
                     (b"id", str(id).encode())
                 ]
 
